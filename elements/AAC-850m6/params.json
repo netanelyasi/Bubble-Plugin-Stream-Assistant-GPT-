@@ -1,0 +1,74 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 85,
+        "width": 170
+    },
+    "display": "Stream Assistant GPT 🤖",
+    "events": {
+        "AAN": {
+            "caption": "Output Generation COMPLETED",
+            "doc": "",
+            "name": "output_generation_completed"
+        },
+        "AAS": {
+            "caption": "Output Generation ERROR",
+            "name": "output_generation_error"
+        },
+        "AAW": {
+            "caption": "Output Cleared",
+            "name": "output_cleared"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAK": {
+            "caption": "Output",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n    return \"\";\n}\n"
+            },
+            "is_list": false,
+            "name": "output",
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Response time",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "response_time",
+            "value": "number"
+        },
+        "AAM": {
+            "caption": "Tokens",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "tokens",
+            "value": "number"
+        },
+        "AAQ": {
+            "caption": "Log",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "log",
+            "value": "text"
+        },
+        "AAR": {
+            "caption": "Thread ID",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "thread_id",
+            "value": "text"
+        }
+    }
+}

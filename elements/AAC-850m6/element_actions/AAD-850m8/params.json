@@ -1,0 +1,35 @@
+{
+    "caption": "Generate Output",
+    "fields": {
+        "AAF": {
+            "caption": "API Key",
+            "editor": "DynamicValue",
+            "name": "api_key",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "Assistant ID",
+            "editor": "DynamicValue",
+            "name": "assistant_id",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "User input",
+            "editor": "DynamicValue",
+            "name": "user",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "Thread ID",
+            "doc": "(Optional)",
+            "editor": "DynamicValue",
+            "name": "thread_id",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

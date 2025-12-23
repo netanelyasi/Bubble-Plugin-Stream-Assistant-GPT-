@@ -1,0 +1,10 @@
+{
+    "categories": {
+        "0": "productivity"
+    },
+    "data_tracked": false,
+    "description": "Stream Assistant GPT 🤖\n\nCreate content using OpenAI's Assistants API interface. Includes data streaming:\n\n## 🔑 Key Features\n\n1. 🌐 Communication with Assistant API: The plugin uses OpenAI's API, specifically the Assistants API in beta version (v2).\n2. 🔴 Real-time Streaming: The plugin supports real-time streaming of AI-generated content, providing a more interactive user experience.\n3. 📊 Log Management: Maintains and updates the state, publishes log messages and output content.\n4. 🛡️ Error Handling: Comprehensive error handling is implemented throughout the plugin usage.\n\n## 🔧 Main Functionality\n\n1. 🧵 Thread Creation: The code creates a new thread with the user's input.\n2. ▶️ Run Creation: It initiates a run within the created thread, using the specified assistant ID.\n3. 🌊 Stream Processing: The plugin processes the streamed response from the API, updating the output in real-time.\n4. 🔄 Run Completion Monitoring: If the run is not completed during stream processing, the code queries the API to check for completion.\n5. 📨 Message Retrieval: In case the output is empty after stream processing, the code retrieves messages from the thread.\n6. 📈 Token Utilization: The plugin tracks response time and estimates token count.",
+    "image": "//meta-q.cdn.bubble.io/f1719518841390x107300782767270960/NmllReVZQByiuqsPYV5lqg.jpg",
+    "license": "open_source",
+    "name": "Stream Assistant GPT 🤖"
+}
